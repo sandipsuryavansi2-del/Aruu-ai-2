@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gold"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/premium_title"
+            android:textColor="#FFF8DC"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_bubble_sys"
+            android:lineSpacingMultiplier="1.2"
+            android:padding="20dp"
+            android:text="@string/premium_body"
+            android:textColor="#FFF8DC"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnBackPremium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:paddingStart="28dp"
+            android:paddingEnd="28dp"
+            android:text="@string/premium_back"
+            android:textColor="#3A2A00"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

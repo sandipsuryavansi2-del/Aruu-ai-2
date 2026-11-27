@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aruu AI 2</string>
+    <string name="app_title">Aruu AI 2 - love is speaking</string>
+    <string name="tagline">love is speaking</string>
+    <string name="apikey_title">Aruu AI 2</string>
+    <string name="apikey_hint">Apni Free Gemini API Key Yaha Dale</string>
+    <string name="apikey_save">SAVE KARO</string>
+    <string name="apikey_help">Free key ke liye Google AI Studio (aistudio.google.com) par login karke API key banao, yaha paste karo, phir SAVE KARO dabao.</string>
+    <string name="chat_hint">Aruu se kuch bhi poocho (Hindi / English)</string>
+    <string name="btn_send">Bhejo</string>
+    <string name="btn_mic">🎤\nMIC</string>
+    <string name="btn_mic_on">⏹\nRUKO</string>
+    <string name="btn_terminate">⛔\nTERMINATE</string>
+    <string name="btn_photo">📷\nPHOTO</string>
+    <string name="btn_premium">👑\nPREMIUM</string>
+    <string name="status_listening">Sun rahi hoon… bolo</string>
+    <string name="status_thinking">Soch rahi hoon…</string>
+    <string name="greeting_text">Main Aruu hoon 💖 Hindi ya English me kuch bhi poocho, main sunungi aur jawab dungi.</string>
+    <string name="avatar_desc">Aruu avatar</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_key_now">Abhi ki key:</string>
+    <string name="settings_new_key">Nayi API key (khaali chhodo to purani rahegi)</string>
+    <string name="settings_text_model">Text model (default gemini-2.5-flash)</string>
+    <string name="settings_image_model">Image model (default gemini-2.5-flash-image)</string>
+    <string name="settings_video_model">Video model (experimental)</string>
+    <string name="settings_name">Tumhara naam</string>
+    <string name="settings_save">SAVE KARO</string>
+    <string name="settings_clear">CHAT SAAF KARO</string>
+    <string name="settings_remove">KEY HATAO</string>
+    <string name="premium_title">👑 AARUU PREMIUM</string>
+    <string name="premium_body">✨ Gold look aur special design
+🎤 Ladki jaisi awaaz (Text to Speech)
+📄 PDF King: padho, banao, sawal poocho
+🎨 Image aur Video banao
+🗂 Chat history save
+
+Ye ek demo premium page hai. Payment system abhi nahi joda gaya hai.</string>
+    <string name="premium_back">WAPAS</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvCurrentKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="#F3D9FF"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etNewKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_input"
+            android:hint="@string/settings_new_key"
+            android:inputType="textNoSuggestions"
+            android:padding="14dp"
+            android:textColor="@color/white"
+            android:textColorHint="#DDFFFFFF" />
+
+        <EditText
+            android:id="@+id/etTextModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_input"
+            android:hint="@string/settings_text_model"
+            android:inputType="text"
+            android:padding="14dp"
+            android:textColor="@color/white"
+            android:textColorHint="#DDFFFFFF" />
+
+        <EditText
+            android:id="@+id/etImageModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_input"
+            android:hint="@string/settings_image_model"
+            android:inputType="text"
+            android:padding="14dp"
+            android:textColor="@color/white"
+            android:textColorHint="#DDFFFFFF" />
+
+        <EditText
+            android:id="@+id/etVideoModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_input"
+            android:hint="@string/settings_video_model"
+            android:inputType="text"
+            android:padding="14dp"
+            android:textColor="@color/white"
+            android:textColorHint="#DDFFFFFF" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_input"
+            android:hint="@string/settings_name"
+            android:inputType="textPersonName"
+            android:padding="14dp"
+            android:textColor="@color/white"
+            android:textColorHint="#DDFFFFFF" />
+
+        <Button
+            android:id="@+id/btnSaveSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_gold_btn"
+            android:text="@string/settings_save"
+            android:textColor="#3A2A00"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnClearChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_pill"
+            android:text="@string/settings_clear"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnRemoveKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_danger"
+            android:text="@string/settings_remove"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</ScrollView>
